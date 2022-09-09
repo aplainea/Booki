@@ -1,0 +1,42 @@
+/* STYLES MOBILES */
+
+@media screen and (max-width: 768px) {
+  header {
+    height: auto;
+    margin: 0;
+  }
+
+  .header__logo--lien {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__logo--mobile {
+    height: 70px;
+  }
+
+  .header__menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 100%;
+  }
+
+  .header__menu--lien {
+    width: 100%;
+    border-bottom: var(--bleu-clair) 3px solid;
+  }
+
+  .header__menu--lien:hover,
+  .header__menu--lien:focus {
+    color: var(--bleu);
+    border-top: none;
+    border-bottom: var(--bleu) 3px solid;
+  }
+}

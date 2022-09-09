@@ -1,0 +1,7 @@
+/* STYLES TABLETTES */
+
+@media screen and (max-width: 992px) {
+  header {
+    margin: 0 50px;
+  }
+}
