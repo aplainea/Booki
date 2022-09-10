@@ -31,7 +31,7 @@
   .header__menu--lien {
     width: 100%;
     border-bottom: var(--bleu-clair) 3px solid;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
   }
 
   .header__menu--lien:hover,
@@ -53,6 +53,18 @@
     margin: 20px;
   }
 
+  .form-search__form {
+    margin: 10px 0;
+  }
+
+  .form-search__container {
+    justify-content: center;
+  }
+
+  .form-search_title {
+    margin-top: 10px;
+  }
+
   .form-search__button {
     position: relative;
     right: 15px;
@@ -69,5 +81,18 @@
 
   .form-search__button-icon {
     display: initial;
+  }
+
+  /* filtres */
+  .form-search__filter-title {
+    margin: 10px 10px 10px 0;
+  }
+
+  .form-search__filter-item {
+    margin: 5px;
+  }
+
+  .form-search__filter-item--subtitle {
+    padding: 10px;
   }
 }

@@ -5,7 +5,7 @@
     display: none;
   }
 
-  .form-search__button-icon {
+  .form-search__button-icon::before {
     display: none;
   }
 }
@@ -70,6 +70,7 @@ header {
 /* MAIN */
 main {
   margin: 20px 50px;
+  transition: margin 1s;
 }
 
 .form-search__title {
@@ -92,13 +93,14 @@ main {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
+  margin: 15px 0;
 }
 
 .form-search__icon {
   background-color: var(--gris);
   padding: 16px;
   border: var(--gris) 1px solid;
-  border-radius: 20px 0 0 20px;
+  border-radius: 10px 0 0 10px;
 }
 
 .form-search__input {
@@ -126,4 +128,86 @@ main {
 .form-search__button-text {
   font-weight: bold;
   color: var(--blanc);
+}
+
+/* filtre */
+
+.form-search__filter {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.form-search__filter-title {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+.form-search__filter-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-search__filter-item {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  margin: 10px;
+  border: var(--gris) 2px solid;
+  border-radius: 25px;
+  color: var(--texte);
+}
+
+.form-search__filter-item:hover {
+  background-color: var(--bleu-clair);
+}
+
+.form-search__filter-item--icon {
+  height: 50px;
+  width: 50px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-left: -2px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: var(--bleu-clair);
+  color: var(--bleu);
+}
+
+.form-search__filter-item--subtitle {
+  color: var(--texte);
+  font-weight: bold;
+  padding: 10px 20px 10px 10px;
+}
+
+/* Information */
+.form-search__information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.form-search__information-icon {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 20px;
+  height: 20px;
+  border: var(--gris) 1px solid;
+  border-radius: 25px;
+  color: var(--bleu);
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.form-search__information-description {
+  color: var(--texte);
 }
