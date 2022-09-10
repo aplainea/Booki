@@ -29,13 +29,11 @@
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
-    <!-- Font Awesome : https://www.bootstrapcdn.com/fontawesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css"
-      integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9"
+    <!-- Font Awesome : https://fontawesome.com -->
+    <script
+      src="https://kit.fontawesome.com/dcb233c813.js"
       crossorigin="anonymous"
-    />
+    ></script>
   </head>
 
   <body>
@@ -54,12 +52,44 @@
           class="header__logo--mobile"
         />
       </a>
-
       <!-- Menu -->
       <nav class="header__menu">
         <a href="#hebergements" class="header__menu--lien">Hébergements</a>
         <a href="#activites" class="header__menu--lien">Activités</a>
       </nav>
     </header>
+
+    <!-- PAGE PRINCIPALE -->
+    <main id="main">
+      <!-- Formulaire de recherche -->
+      <section id="form-search">
+        <!-- Titre + description -->
+        <h2 class="form-search__title">
+          Trouvez votre hébergement pour des vacances de rêve
+        </h2>
+        <p class="form-search__description">
+          En plein centre ville ou en pleine nature
+        </p>
+        <!-- Saisie de recherche -->
+        <form action="/" method="post" class="form-search__form">
+          <div class="form-search__container">
+            <i class="form-search__icon fa-solid fa-location-dot"></i>
+            <input
+              type="text"
+              placeholder="Marseille, France"
+              class="form-search__input"
+            />
+            <button class="form-search__button">
+              <span class="form-search__button-text">Rechercher</span>
+              <i
+                class="form-search__button-icon fa-solid fa-magnifying-glass"
+              ></i>
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- ... -->
+    </main>
   </body>
 </html>

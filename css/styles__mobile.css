@@ -31,6 +31,7 @@
   .header__menu--lien {
     width: 100%;
     border-bottom: var(--bleu-clair) 3px solid;
+    padding: 20px;
   }
 
   .header__menu--lien:hover,
@@ -38,5 +39,35 @@
     color: var(--bleu);
     border-top: none;
     border-bottom: var(--bleu) 3px solid;
+  }
+
+  /* MAIN */
+  main {
+    margin: 0;
+  }
+
+  /* formulaire de recherche */
+  #form-search {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .form-search__button {
+    position: relative;
+    right: 15px;
+    max-width: 50px;
+    min-width: 50px;
+    border-radius: 15px;
+    margin-right: -10px;
+    color: var(--blanc);
+  }
+
+  .form-search__button-text {
+    display: none;
+  }
+
+  .form-search__button-icon {
+    display: initial;
   }
 }
