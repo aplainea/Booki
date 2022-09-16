@@ -4,4 +4,12 @@
   header {
     margin: 0 50px;
   }
+
+  .section-hebergement {
+    justify-content: space-around;
+  }
+
+  .section-hebergement__card {
+    box-shadow: 0 5px 10px var(--shadow);
+  }
 }

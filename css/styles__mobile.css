@@ -95,4 +95,17 @@
   .form-search__filter-item--subtitle {
     padding: 10px;
   }
+
+  /* Hébergements */
+  .section-hebergement {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ffffff;
+  }
+  .section-hebergement__card {
+    width: auto;
+    height: auto;
+  }
 }
