@@ -1,8 +1,30 @@
 /* STYLES TABLETTES */
+@media screen and (max-width: 1439px) {
+  .main__container {
+    flex-direction: column-reverse;
+  }
+
+  .section-hebergement {
+    justify-content: space-around;
+  }
+
+  .aside-populaire__card {
+    width: 100%;
+  }
+
+  .aside-populaire__card--img {
+    max-width: 40%;
+  }
+}
 
 @media screen and (max-width: 992px) {
+  /* 992px */
   header {
     margin: 0 50px;
+  }
+
+  .main__container {
+    flex-direction: column-reverse;
   }
 
   .section-hebergement {
@@ -11,5 +33,13 @@
 
   .section-hebergement__card {
     box-shadow: 0 5px 10px var(--shadow);
+  }
+
+  .aside-populaire__card {
+    width: 100%;
+  }
+
+  .aside-populaire__card--img {
+    max-width: 40%;
   }
 }
