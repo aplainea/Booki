@@ -404,3 +404,99 @@ main {
 .aside-populaire__card--figcaption__stars-gray {
   color: var(--gris);
 }
+
+/* Activités */
+.section-activite {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-activite__title {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.section-activite__container {
+  max-height: 450px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.section-activite__container--duocard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-activite__card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: var(--blanc);
+  border-radius: 25px;
+  box-shadow: 0 5px 10px var(--shadow);
+}
+
+.section-activite__card:hover {
+  box-shadow: 0 5px 10px var(--noir);
+  transform: translateY(-5px);
+  transition: transform 1s, box-shadow 1s;
+}
+
+.card1,
+.card4 {
+  max-height: 450px;
+}
+.card2 {
+  max-height: 230px;
+}
+.card3 {
+  max-height: 160px;
+}
+.card5,
+.card6 {
+  max-height: 200px;
+}
+
+.section-activite__card--link {
+  text-decoration: none;
+  color: var(--noir);
+}
+.section-activite__card--link:hover {
+  text-decoration: none;
+  color: var(--noir);
+}
+
+.section-activite__card--img {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  object-fit: cover;
+}
+
+.img1,
+.img4 {
+  height: 400px;
+}
+.img2 {
+  height: 180px;
+}
+.img3 {
+  height: 110px;
+}
+.img5,
+.img6 {
+  height: 150px;
+}
+
+.section-activite__card--figcaption {
+  height: 50px;
+}
+
+.section-activite__card--figcaption__title {
+  padding: 10px 20px;
+}

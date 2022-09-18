@@ -15,6 +15,14 @@
   .aside-populaire__card--img {
     max-width: 40%;
   }
+
+  .section-activite__container {
+    margin: 0px;
+  }
+
+  .section-activite__card {
+    width: 200px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -41,5 +49,23 @@
 
   .aside-populaire__card--img {
     max-width: 40%;
+  }
+
+  .section-activite {
+    margin: 10px;
+  }
+
+  .section-activite__container {
+    flex-direction: column;
+  }
+
+  .section-activite__card {
+    width: 100%;
+    max-height: 200px !important;
+    margin-top: 20px;
+  }
+
+  .section-activite__card--img {
+    max-height: 150px;
   }
 }
