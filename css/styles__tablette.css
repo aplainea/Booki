@@ -17,11 +17,16 @@
   }
 
   .section-activite__container {
+    max-height: none;
     margin: 0px;
   }
 
   .section-activite__card {
     width: 200px;
+  }
+
+  .footer__container {
+    margin-right: 10%;
   }
 }
 
@@ -52,7 +57,7 @@
   }
 
   .section-activite {
-    margin: 10px;
+    margin: 10px 20px;
   }
 
   .section-activite__container {
@@ -67,5 +72,9 @@
 
   .section-activite__card--img {
     max-height: 150px;
+  }
+
+  .footer__container {
+    margin-right: 5%;
   }
 }
