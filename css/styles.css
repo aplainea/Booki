@@ -172,9 +172,12 @@ main {
   border: var(--gris) 2px solid;
   border-radius: 25px;
   color: var(--noir);
+  transition: height 0.5s, margin 0.5s;
 }
 
 .form-search__filter-item:hover {
+  height: 60px;
+  margin: 5px 10px;
   background-color: var(--bleu-clair);
 }
 

@@ -112,6 +112,11 @@
     margin: 5px;
   }
 
+  .form-search__filter-item:hover {
+    height: 50px;
+    margin: 5px;
+  }
+
   .form-search__filter-item--subtitle {
     padding: 10px;
   }
