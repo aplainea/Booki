@@ -8,6 +8,10 @@
     padding: 30px 10px;
   }
 
+  .aside-populaire__card--figcaption__title {
+    font-size: 14px;
+  }
+
   .section-activite {
     margin: 10px;
   }
